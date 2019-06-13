@@ -6,7 +6,7 @@ import './Header.css'
 class Header extends Component {
     render() {
         return (
-            <div className="header">
+            <div className="Header">
                 <div>
                 <h1 className="home-hero"><Link to='/'>Perry Pediatrics</Link></h1>
                 </div>
