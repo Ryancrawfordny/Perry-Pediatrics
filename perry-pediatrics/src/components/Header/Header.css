@@ -4,17 +4,23 @@
     font-weight: 500;
     margin-left: 40px;
     line-height: normal;
+    margin-top: 20px;
 }
+
+
 
 .header-nav {
     list-style-type: none; 
     display: flex;
     justify-content: space-around;       
     text-decoration: none;
+    /* float: right; */
+    text-align: right;
+    margin-top: 20px;
 }
 
 nav li {
-    display: inline;
+    display: block;
     font-size: 22px;
     font-weight: 400;
     font-style: normal;
@@ -24,6 +30,8 @@ nav li {
     color: white;
     padding-left: 30px;    
 }
+
+
 
 .header-decoration {
     text-decoration: none; 
