@@ -1,0 +1,10 @@
+.header-nav {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;       
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
