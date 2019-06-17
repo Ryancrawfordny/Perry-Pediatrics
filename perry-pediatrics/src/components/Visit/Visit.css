@@ -1,6 +1,11 @@
 .Visit {
     margin-top: 40px;
 }
+
+.visit-address {
+    text-align: center;
+    margin-bottom: 10px;
+}
 h2 {
     font-weight: 500;
 }
