@@ -23,6 +23,7 @@ function App() {
         <Route exact path="/visit" component={Visit} />
         <Route exact path="/contact" component={Contact} />
       </main> 
+      
       <footer>
       <Footer />
       </footer>
