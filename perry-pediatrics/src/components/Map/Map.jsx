@@ -32,20 +32,22 @@ class Map extends Component {
         return(
             <Marker longitude={long} latitude={lat}>
                 <MapPin 
-                size={15} />
+                size={15}
+                onClick={this._renderPopup} />
             </Marker>
         ) 
     }
 
 
     _renderPopup() {
-        const lat = Number(40.41835)
-        const long = Number(-77.19992)
+        const lt = this.state.latitude
+        const lng = this.state.longitude
         return (
             <Popup tipSize={5}
             anchor="top"
-            longitude={long}
-            latitude={lat}>
+            longitude={lng}
+            latitude={lt}
+            >
                 <MapInfo />
             </Popup>
         )
@@ -58,6 +60,7 @@ class Map extends Component {
             <div className="level">
                 <div className="level-item">
                 <ReactMapGL
+                onClick={() => this.setState({ popupInfo: null })}
                 width={viewport.width}
                 height={viewport.height}
                 latitude={viewport.latitude}
@@ -69,7 +72,7 @@ class Map extends Component {
                 onViewportChange={(viewport) => this.setState({ viewport })}
                 mapboxApiAccessToken={MAPBOX_TOKEN}>
                     {this._renderMarker()}
-                    {this._renderPopup()}
+                    {/* {this._renderPopup()} */}
                 </ReactMapGL>
 
                 </div>
