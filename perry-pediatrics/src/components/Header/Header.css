@@ -1,3 +1,13 @@
+.Header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding-bottom: 10px;
+}
+
 .home-hero {
     float: left;
     font-size: 22px;
@@ -9,18 +19,18 @@
 
 
 
+
 .header-nav {
     list-style-type: none; 
     display: flex;
     justify-content: space-around;       
     text-decoration: none;
-    /* float: right; */
     text-align: right;
     margin-top: 20px;
     margin-right: 40px;
 }
 
-nav li {
+nav li {        
     display: block;
     font-size: 22px;
     font-weight: 400;
