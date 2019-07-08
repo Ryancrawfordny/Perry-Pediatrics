@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './About.css';
 
 class About extends Component {
   render() {
@@ -10,7 +11,7 @@ class About extends Component {
             <h2>
               Welcome to our practice and thank you for choosing Perry
               Pediatrics. We look forward to getting to know your family and
-              working together to provide the best posible care for your child.
+              working together to provide the best possible care for your child.
             </h2>
           </div>
         </div>
