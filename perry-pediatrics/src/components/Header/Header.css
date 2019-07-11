@@ -52,3 +52,11 @@ nav li {
 .header-decoration:hover {
     text-decoration: none;
 }
+
+.header-perry > a {
+    color: black !important;
+}
+
+.header-perry > li > a {
+    color: black !important;
+}

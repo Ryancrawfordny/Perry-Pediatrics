@@ -5,9 +5,9 @@ div.tile.is-ancestor {
 }
 
 div.tile.is-child.box {
-    background-color: #209cee;
+    /* background-color: #209cee; */
     margin: 100px;
-    color: azure;
+    /* color: azure; */
 }
 
 article.tile.is-child.notification.is-success {
