@@ -1,10 +1,10 @@
-.App {
-    background-color: #209cee;
-}
-
-
 main {
-     padding-top: 40px;
-     /* padding-bottom: 40px;  */
+    background-color:#209cee; 
+    overflow: hidden;
+     padding-top: 80px;
+     min-height: 100%;
+     /* padding-bottom: 400px;  */
      color: white;
+     /* height: 100%; */
 }
+

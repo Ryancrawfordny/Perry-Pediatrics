@@ -1,12 +1,14 @@
-.Visit {
-    margin-top: 40px;
-    color: white;
-}
-
-.visit-address {
-    text-align: center;
-    margin-bottom: 10px;
-}
 h2 {
     font-weight: 500;
 }
+
+.visit-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hours {
+    margin-top: 20px;
+}
+
+

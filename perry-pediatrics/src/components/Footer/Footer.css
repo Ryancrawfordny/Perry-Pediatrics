@@ -1,5 +1,7 @@
 .footer {
-    /* position: fixed; */
+    position: fixed;
+/* figure out overflow in this situation  */
+
     left: 0;
     bottom: 0;
     width: 100%;
