@@ -15,6 +15,7 @@ function App() {
       <header>
       <Header />
       </header>
+
       <main>
 
       <Route exact path="/" render={ () => <Home />}/>
@@ -24,9 +25,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
       </main> 
       
-      <footer>
       <Footer />
-      </footer>
 
 
     </div>
