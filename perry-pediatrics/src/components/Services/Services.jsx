@@ -7,7 +7,7 @@ class Services extends Component {
       <div className="services">
         <h1 className="services-heading">Services We Provide</h1>
         <div className="services-header">
-          <ul>
+          <ul className="services-list">
             <li>Visits for expecting parents</li>
             <li>
               Visits for new or transfer patients, from newborn to college

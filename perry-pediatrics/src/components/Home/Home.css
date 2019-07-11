@@ -1,24 +1,26 @@
 h1.title {
-    font-size: 75px;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-
+  font-size: 75px;
+  color: black;
+  font-family: "Quicksand", sans-serif;
 }
 
 article.tile.is-child.box {
-    display: flex;
-    justify-content: center;
-    background-color:  #43a047;
+  display: flex;
+  justify-content: center;
+  background-color: #43a047;
 }
 
 h2.about-home {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
 }
 
 p.home-info {
-    font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 75px;
 }
