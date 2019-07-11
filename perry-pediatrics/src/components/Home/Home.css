@@ -1,6 +1,8 @@
 h1.title {
     font-size: 75px;
     color: black;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 article.tile.is-child.box {
@@ -12,5 +14,7 @@ article.tile.is-child.box {
 h2 {
     display: flex;
     justify-content: center;
-    color:#3273DC;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
 }
