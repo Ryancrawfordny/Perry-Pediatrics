@@ -8,22 +8,19 @@ class Header extends Component {
         return (
             <div className="Header">
                 <div>
-                <h1 className="home-hero"><Link to='/'>Perry Pediatrics</Link></h1>
+                    <h1  className="home-hero header-perry"><Link to='/'>Perry Pediatrics</Link></h1>
                 </div>
 
-                <nav className="navbar-end" role="navigation" aria-label="main navigation">
-                {/* <div className="navbar-brand">  
-                </div> */}
+                <nav className="navbar-end " role="navigation" aria-label="main navigation">
+                    <div className="nav-options">
+                        <ul className="header-nav header-perry">
 
-                <div className="nav-options">
-                <ul className="header-nav">
-                
-                <li><Link to='/about'>About</Link></li>
-               <li> <Link to='/services'>Services</Link></li>
-                <li><Link to='/visit'>Visit</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
-                </ul>
-                </div>
+                            <li><Link to='/about'>About</Link></li>
+                            <li> <Link to='/services'>Services</Link></li>
+                            <li><Link to='/visit'>Visit</Link></li>
+                            <li><Link to='/contact'>Contact</Link></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         );

@@ -5,7 +5,7 @@
     right: 0;
     background-color: white;
     z-index: 1000;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .home-hero {
@@ -51,4 +51,12 @@ nav li {
 
 .header-decoration:hover {
     text-decoration: none;
+}
+
+.header-perry > a {
+    color: black !important;
+}
+
+.header-perry > li > a {
+    color: black !important;
 }

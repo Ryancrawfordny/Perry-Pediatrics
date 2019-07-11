@@ -8,6 +8,10 @@ class Contact extends Component {
                 <h2>Phone Number:</h2>
                 <p>(717) 582-2181</p>
 
+                <h2>Fax:</h2> 
+                <p>717-582-3434</p>
+
+
             </div>
         );
     }
