@@ -1,0 +1,16 @@
+h1.title {
+    font-size: 75px;
+    color: black;
+}
+
+article.tile.is-child.box {
+    display: flex;
+    justify-content: center;
+    background-color:  #43a047;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:#3273DC;
+}
