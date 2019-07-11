@@ -1,0 +1,14 @@
+h1.services-heading {
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+div.services-header {
+  color: black;
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
