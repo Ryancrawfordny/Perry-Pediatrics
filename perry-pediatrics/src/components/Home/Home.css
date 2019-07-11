@@ -1,0 +1,20 @@
+h1.title {
+    font-size: 75px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+article.tile.is-child.box {
+    display: flex;
+    justify-content: center;
+    background-color:  #43a047;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
