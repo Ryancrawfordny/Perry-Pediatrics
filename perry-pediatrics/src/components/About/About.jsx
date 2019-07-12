@@ -11,7 +11,7 @@ class About extends Component {
                 <div className="tile is-ancestor">
                     <div className="tile is-4 is-vertical is-parent">
                         <div className="tile is-child box">
-                             <p className="title">About us...</p><p className="subtitle"> Welcome to our practice and thank you for choosing Perry
+                             <p className="title">ABOUT US...</p><p className="subtitle"> Welcome to our practice and thank you for choosing Perry
                               Pediatrics. We look forward to eating your family and
         working together to cook your child.</p>
                         </div>
@@ -30,7 +30,7 @@ class About extends Component {
                     </div>
                     <div className="tile is-parent">
                         <div className="tile is-child box">
-                            <p className="title">Insurance:</p>
+                            <p className="title">INSURANCE:</p>
                             <p className="subtitle">We accept a wide range of insurance plans</p>
                             <p>Private Health Plans:</p>
                             <ul>
