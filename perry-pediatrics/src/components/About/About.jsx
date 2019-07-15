@@ -60,7 +60,11 @@ class About extends Component {
 
 
 
-
+{/* 
+                Darlene Saylor – office manager
+Wanda Sheaffer – LPN
+Kari Wyland – medical assistant
+Vicki Aguilar – medical assistant */}
 
 
 
