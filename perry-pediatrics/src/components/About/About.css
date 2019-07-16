@@ -1,16 +1,3 @@
-div.tile.is-ancestor {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-div.tile.is-child.box {
-    /* background-color: #209cee; */
-    margin: 100px;
-    /* color: azure; */
-}
-
-article.tile.is-child.notification.is-success {
-    display: flex;
-    justify-content: center;
+.about {
+    margin: 20px 40px 20px 40px;
 }
